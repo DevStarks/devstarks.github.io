@@ -552,23 +552,19 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Slakk</h2>
                                 <p class="item-intro text-muted">A group-messaging app inspired by Slack</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/sign-up.jpg" alt="">
-                                <p>Slack allows users to communicate with each other in an organized way. Users can create and join public channels that are centered around specific topics. Users can also have private conversations using direct-message or group-message feature.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/slakk.jpg" alt="">
-                                                                </p>
                                 <p>
-                                  Main achievements:
-
-- Leveraged ActiveRecord to preload necessary data before making SQL queries resulting in efficient data retrieval and easy scalability
-
-- Implemented real-time message updating using web-socket technology through a third-party API, Pusher.
-
-- Wrote custom front and back end authentication that safely persists passwords to the database using the BCrypt hashing algorithm.
-
-- Utilized single-page architecture and fetches data using AJAX requests exclusively, allowing for 0 page reloads from login to logout
+                                  <a href="http://www.slakk.co" target="_blank" class="btn btn-primary"><i class="fa"></i>Live</a>
+                                  <a href="https://github.com/DevStarks/Slakk" target="_blank" class="btn btn-primary"><i class="fa"></i>Github</a>
+                                </p>
+                                <img class="img-responsive img-centered" src="img/portfolio/sign-up.jpg" alt="slack-sign-up-page">
+                                <p>Slakk allows users to communicate with each other in an organized way. Users can create and join public channels that are centered around specific topics. Users can also have private conversations using the direct-message or group-message features.</p>
+                                  <img class="img-responsive img-centered" src="img/portfolio/slakk.jpg" alt="slack-homepage">
+                                </p>
+                                <p>
+                                  Real-time message updating was implemented using web-socket technology through a third-party API, Pusher. By leveraging ActiveRecord to preload necessary data before making SQL queries, data retrieval from the back-end is efficient and easily scalable. Slakk features a custom front and back end authentication that safely persists passwords to the database as hashes using the BCrypt hashing algorithm. By utilizing single-page architecture and fetching data using AJAX requests exclusively, Slakk requires 0 page reloads from login to logout, making navigation quick and seamless.
                                 </p>
 
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Back to Projects</button>
                             </div>
                         </div>
                     </div>
@@ -591,12 +587,22 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                              <h2>Orbital</h2>
+                              <p class="item-intro text-muted">A solar-sytem inspired sequencer</p>
+                              <p>
+                                <a href="http://devinstarks.com/Orbital/" target="_blank" class="btn btn-primary"><i class="fa"></i>Live</a>
+                                <a href="https://github.com/DevStarks/Orbital" target="_blank" class="btn btn-primary"><i class="fa"></i>Github</a>
+                              </p>
+                              <p>
+                                Orbital is a solar-system inspired musical instrument for the browser. It works by looping 2, 4, or 8 measures and placing new notes, represented by planets, in orbit as the user inputs them. Each tone has its own orbital path and triggers a synth sound when it reaches its point of origin.
+                              </p>
+                              <img class="img-responsive img-centered" src="img/portfolio/orbital.png" alt="orbital">
+                              <p>
+                                Orbital is built on an algorithm that determines an element's rate of motion based on user-determined tempo and number of measures. The EaselJS library was used to create canvas elements that represent planets that trigger synthesizers based on their coordinates.
+                                Multiple jQuery event-listeners are employed to give the user dynamic control over the display.
+                              </p>
+
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Back to Projects</button>
                             </div>
                         </div>
                     </div>
@@ -619,13 +625,20 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                              <h2>stORM</h2>
+                              <p class="item-intro text-muted">An object relational mapping library</p>
+                              <p>
+                                <a href="https://github.com/DevStarks/stORM" target="_blank" class="btn btn-primary"><i class="fa"></i>Github</a>
+                              </p>
+                              <p>
+                                stORM is an Object-Relational Mapping library inspired by ActiveRecord. stORM provides a base class `SQLObject` that, when inherited from, allows Ruby classes to easily query their related database table and return Ruby objects representing that data. These database-connected subclasses can be mapped to each other through associations.                              </p>
+                              <img class="img-responsive img-centered" src="img/portfolio/storm.png" alt="orbital">
+                              <p>
+                                stORM employs metaprogramming to dynamically create instance-methods based on object attributesand supports the mapping of single and multi-step associations that cross-reference database tables. By infering table-names, primary-keys, and foreign-keys under-the-hood, associations can be defined in an elegant way.
+
+                              </p>
+
+                              <button type="button" class="btn btn-primary" data-dismiss="modal">Back to Projects</button>
                             </div>
                         </div>
                     </div>
