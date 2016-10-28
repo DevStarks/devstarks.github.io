@@ -690,7 +690,7 @@ ul.social-buttons li a:active {
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content p.item-intro {
-  margin: 20px 0 30px;
+  margin: -10px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
@@ -806,4 +806,15 @@ label {
 
 .about-me {
   margin: 0 70px;
+}
+
+p.project-tech {
+  font-size: 18px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+div.col-lg-6.text-center.skills-header {
+  margin: 0 auto;
+  float: none;
 }
